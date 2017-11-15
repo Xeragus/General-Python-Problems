@@ -1,0 +1,7 @@
+Write a Python program to count the occurrences of each word in a given sentence.
+Input the sentence from keyboard, after printing an input message.
+Find all the words that have occurred only once and transform them in upper case.
+Then find all the words that have occurred twice, remove them and insert new word
+in their position. This word will be a combination of the first two and the last
+two letters of the removed word. If the word has less than 2 letters, do not remove it.	
+
