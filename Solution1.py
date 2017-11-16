@@ -21,7 +21,7 @@ def word_count(sentence):
 	print_dictionary(occurrences)
 
 	#analyzing the dictionary
-	analyze_dictionary(occurrences, words)
+	analyze_dictionary(occurrences)
 	
 	return occurrences
 
@@ -33,7 +33,7 @@ def initialize_dictionary(occurrences, words):
 		else:
 			occurrences[word.lower()] = 1
 
-def analyze_dictionary(occurrences, words):
+def analyze_dictionary(occurrences):
 	for word in occurrences.keys():
 		#transforming the words that occured only once in uppercase
 		if occurrences[word] == 1:
@@ -43,6 +43,7 @@ def analyze_dictionary(occurrences, words):
 		elif occurrences[word] == 2:
 			new_key = word[:2] + word[-2:]
 			occurrences[new_key] = occurrences.pop(word)
+		return occurrences
 
 def print_dictionary(occurrences):
 	for word in occurrences.keys():

@@ -1,0 +1,12 @@
+Write a Python program that will encrypt a given message using Caesar Encryption. 
+The user should insert the message and the shift positions. Encrypt the spaces 
+between words with '***'. After the encryption of the message, print the encrypted
+message on the screen.
+
+Example: 
+Enter the message you would like to encrypt: The kingdom is under attack
+Enter the Caesar shift: 2
+
+Result:
+['V', 'j', 'g', '***', 'm', 'k', 'p', 'i', 'f', 'q', 'o', '***', 'k', 'u', '***'
+, 'w', 'p', 'f', 'g', 't', '***', 'c', 'v', 'v', 'c', 'e', 'm']
