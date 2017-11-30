@@ -1,0 +1,2 @@
+Create a Python script that merges the three text files (test1.txt, test2.txt, test3.txt) into a new text file containing the text of all three files. 
+The filename of the merged text file should contain the current timestamp down to the millisecond level. E.g. "2016-06-01-13-57-39-170965.txt".
